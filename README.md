@@ -6,7 +6,7 @@ https://bet-nextjs.vercel.app/
 
 
 
-We have two readme files, one for the frontend and one for the backend. In the front-end and back-end folders respectively.
+# We have two readme files, one for the frontend and one for the backend. In the front-end and back-end folders respectively.
 
 
 ## Front-end:
