@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bets",
+  "info": {
+    "singularName": "bet",
+    "pluralName": "bets",
+    "displayName": "bet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "chosen": {
+      "type": "string"
+    },
+    "home": {
+      "type": "string"
+    },
+    "away": {
+      "type": "string"
+    },
+    "points": {
+      "type": "integer"
+    },
+    "commence_time": {
+      "type": "datetime"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "payback": {
+      "type": "integer"
+    },
+    "user_1": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::user1.user1"
+    },
+    "mID": {
+      "type": "string"
+    }
+  }
+}

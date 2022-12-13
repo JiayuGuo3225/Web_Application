@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user1s",
+  "info": {
+    "singularName": "user1",
+    "pluralName": "user1s",
+    "displayName": "User1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "bet_points": {
+      "default": 2000,
+      "type": "integer"
+    },
+    "password": {
+      "type": "string"
+    }
+  }
+}

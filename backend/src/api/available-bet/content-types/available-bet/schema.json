@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "available_bets",
+  "info": {
+    "singularName": "available-bet",
+    "pluralName": "available-bets",
+    "displayName": "available_bet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "home_team": {
+      "type": "string"
+    },
+    "away_team": {
+      "type": "string"
+    },
+    "home_odds": {
+      "type": "decimal"
+    },
+    "away_odds": {
+      "type": "decimal"
+    },
+    "commence_time": {
+      "type": "datetime",
+      "unique": false
+    },
+    "mID": {
+      "type": "uid"
+    }
+  }
+}
