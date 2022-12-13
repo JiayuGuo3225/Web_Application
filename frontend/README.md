@@ -1,3 +1,12 @@
+components include some tsx documents. We use it in our front-end
+lib means library. It contains user and NBA teams.
+pages is our core code, which implements all pages showed on website. There are 5 tsx documents: index, auth, game, profile, about.
+public contains some picture show on home page.
+style contains tailwind css document.
+Tests are used to do some manual testing while we are developing. It is now empty.
+
+The following is an introduction to next.js.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
