@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2022.3.6)  13 DEC 2022 12:25
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 22.1) (preloaded format=xelatex 2022.3.6)  13 DEC 2022 13:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**f:/_USC/22/EE547/final_project/report/report.tex
-(f:/_USC/22/EE547/final_project/report/report.tex
+**f:/_USC/22/EE547/final_project/final_project_all/report/report.tex
+(f:/_USC/22/EE547/final_project/final_project_all/report/report.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-21>
 (D:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -472,39 +472,39 @@ File: utils/architecture.png Graphic file (type bmp)
 <utils/architecture.png>
  [1
 
-]
+] [2]
 File: utils/pages.png Graphic file (type bmp)
 <utils/pages.png>
- [2]
 File: utils/index.png Graphic file (type bmp)
 <utils/index.png>
+ [3]
 File: utils/index_code.png Graphic file (type bmp)
 <utils/index_code.png>
- [3]
 File: utils/sign.png Graphic file (type bmp)
 <utils/sign.png>
 File: utils/sign_up.png Graphic file (type bmp)
 <utils/sign_up.png>
 File: utils/wrong_sign.png Graphic file (type bmp)
 <utils/wrong_sign.png>
+ [4]
 File: utils/change_password.png Graphic file (type bmp)
 <utils/change_password.png>
 File: utils/sign_code1.png Graphic file (type bmp)
 <utils/sign_code1.png>
- [4]
+ [5]
 File: utils/sign_code2.png Graphic file (type bmp)
 <utils/sign_code2.png>
 File: utils/profile.png Graphic file (type bmp)
 <utils/profile.png>
- [5]
+
+[6]
 File: utils/profile_code.png Graphic file (type bmp)
 <utils/profile_code.png>
 File: utils/bet1.png Graphic file (type bmp)
 <utils/bet1.png>
 File: utils/bet2.png Graphic file (type bmp)
 <utils/bet2.png>
-
-[6]
+ [7]
 File: utils/bet3.png Graphic file (type bmp)
 <utils/bet3.png>
 File: utils/BetSchema.png Graphic file (type bmp)
@@ -513,7 +513,7 @@ File: utils/user1Schema.png Graphic file (type bmp)
 <utils/user1Schema.png>
 File: utils/available_betSchema.png Graphic file (type bmp)
 <utils/available_betSchema.png>
- [7]
+ [8]
 File: utils/cron1.png Graphic file (type bmp)
 <utils/cron1.png>
 File: utils/cron2.png Graphic file (type bmp)
@@ -528,20 +528,20 @@ File: utils/graphql1.png Graphic file (type bmp)
 <utils/graphql1.png>
 File: utils/graphql2.png Graphic file (type bmp)
 <utils/graphql2.png>
- [8]
+ [9]
 File: utils/resource.png Graphic file (type bmp)
 <utils/resource.png>
- [9] [10] (report.aux)
+ [10] [11] (report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D4B92DCE77251BADFA6437B3152D9BD5;3072.
  ) 
 Here is how much of TeX's memory you used:
  12355 strings out of 410969
- 197276 string characters out of 2828074
- 524510 words of memory out of 3000000
+ 197330 string characters out of 2828074
+ 523510 words of memory out of 3000000
  32931 multiletter control sequences out of 15000+600000
  476019 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 69i,6n,79p,636b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,6n,79p,654b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.pdf (10 pages).
+Output written on report.pdf (11 pages).

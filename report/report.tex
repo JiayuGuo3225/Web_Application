@@ -30,11 +30,13 @@ In this project we built an online platform for users to bet on the NBA games. E
 
 \section{Architecture}
 
-Our web application's Architecture include 4 parts:
-User: User have a access to login or sign up a account for first time use, and have a betting balance in his account.
-Front-End: Interact with user's operation and show the betting webpage to user. Also, send the request to backend and receive response from back End.
-Back-End: This is our core part in our project. It will receive request from front-end and give response back to it. We use odds api form NBA website and can get real-time match information from this Odds api(data source), 
-Database: Provide user's information and provide match information to the back-end, also will record user's information and record match's information from back-end
+Our web application's architecture include 4 parts:
+\begin{enumerate}
+    \item User: User have a access to login or sign up an account for first time use, and have a betting balance in his account.
+    \item Front-End: Interact with user's operation and show the betting webpage to user. Also, send the request to backend and receive response from back End.
+    \item Back-End: This is our core part in our project. It will receive request from front-end and give response back to it. It also runs routinely to requests match data from the odds api, and store the fetched data to database.
+    \item Database: Provide user's information and provide match information to the back-end, also will record user's information and record match's information from back-end
+\end{enumerate}
 
 The following sections will present more details on the technologies, implementation and deployment of the architecture.
 
