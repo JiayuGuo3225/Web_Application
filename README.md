@@ -1,6 +1,6 @@
 # 547project
 
-# OUR WEB APPLICATION WEBSITE DOWNBLOW!!! TRY IT!!!
+# OUR WEB APPLICATION WEBSITE DOWN BLOW!!! TRY IT!!!
 https://bet-nextjs.vercel.app/
 
 
