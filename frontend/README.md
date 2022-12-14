@@ -1,3 +1,5 @@
+# Frontend
+##  major files
 components include some tsx documents. We use it in our front-end.
 
 lib means library. It contains user and NBA teams.
@@ -43,6 +45,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
+
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Notice to set the environment variable NEXT_PUBLIC_API to the graphql endpoint link provided by the backend deployment.

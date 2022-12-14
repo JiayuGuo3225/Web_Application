@@ -1,15 +1,9 @@
 
 const axios = require('axios');
 module.exports = {
-    /**
-     * Simple example.
-     * Every monday at 1am.
-     */
-    // },
 
-    '0 * * * * *': ({ strapi }) => {
+    '0 1 0 * * *': ({ strapi }) => {
         console.log("payback running");
-        //获取所有未结算的
         var config = {
             method: 'get',
             url: 'https://api.the-odds-api.com/v4/sports/basketball_nba/scores/?daysFrom=1&apiKey=8862712d95dfef87c7cc649bb3217c35',
@@ -26,8 +20,7 @@ module.exports = {
 
                     bet.forEach(bet => {
                        
-                        //找每个bet对应的match
-                        
+                        //find corresponding match
                         const match = matches.find(match => {
                             // console.log(match.id,bet.mid);
                             return match.id === bet.mID
@@ -63,9 +56,6 @@ module.exports = {
                 }, console.log)
             },console.log)
 
-
-
-
     },
 
 
@@ -97,8 +87,6 @@ module.exports = {
                 }
                 ))
             },console.log)
-
-
 
     },
 };
