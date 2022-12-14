@@ -34,10 +34,6 @@ module.exports = createCoreController('api::bet.bet', ({ strapi }) => ({
 
             ctx.body = { result: "Success!", points_after: points_after }
         }
-
-
-       
     },
-
 
 }));
