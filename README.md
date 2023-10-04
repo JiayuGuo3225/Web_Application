@@ -1,4 +1,4 @@
-# 547project
+# 547 School project
 
 This is the code repository for all the components of the virtual betting system.
 
